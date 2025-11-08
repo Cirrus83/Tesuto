@@ -6,7 +6,7 @@ Use "help" to get more information.
 - `clear` – Clear the screen.
 - `exit`
 - `gcd` – Calculate GCD(multiple positive integers supported).
-- `grid` – A simulator of PKU Programming Grid.(Under development)
+- *`grid` – A simulator of PKU Programming Grid.(Under development)
 - `gparescuer` – An interesting game that can help you recover from a test fail.
 - `hello` – Print "Hello World!" on the screen.
 - `help` – Show help information.
@@ -16,5 +16,8 @@ Use "help" to get more information.
 - `manual` – Calculate inverse matrix by yourself.
   - Available commands: add, sub(subtract), mul(multiply), div(divide), neg(negative).
 - `quit`
+- `sms` – Show 面白い texts about PKU SMS.
+- *`txt` – A txt reader.
 - `version` – Show version information.
-- `xk` – Show 面白い texts about PKU EECS.
+- *`xk` – Show 面白い texts about PKU EECS.
+> '*' – To avoid failures, please first `cd` the program dir path in zsh.
