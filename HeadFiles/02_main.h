@@ -44,8 +44,8 @@ std::vector<std::string> processCmd(std::string il)
 	}
 	return result;
 }
-void exec(int code)
+void exec(int code,std::vector<std::string>&cmd)
 {
 	using namespace std;
-	cout<<"main: Program exited with code "<<code<<'.'<<endl<<"~~ ";
+	cout<<"main: Program \""<<cmd[0]<<"\" exited with code "<<code<<'.'<<endl<<"~~ ";
 }
